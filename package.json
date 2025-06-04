@@ -1,0 +1,17 @@
+{
+  "name": "unfbd",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "pnpm --filter app start",
+    "build": "pnpm --filter app build",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0"
+  }
+}
